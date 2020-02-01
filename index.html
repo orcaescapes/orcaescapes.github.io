@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Orcæ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description"
+          content="Orcæ est une formation expérimentale de 3 musiciens, jouant une forme de musique électronique intégralement improvisée."/>
+    <meta name="keywords"
+          content="electronic electronique musique music improvisation grenoble performance stream podcast live session max/msp reason ableton"/>
+    <meta name="author" content="Orcæ">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link rel="icon" type="image/ico" href="images/favicon.ico"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/appalt.css"/>
+
+</head>
+
+
+<body class="animsition">
+
+
+<header class="hidden scroll-hide">
+
+    <div id="header-container">
+
+        <div id="logo"><a class="animation-link" href="index.html"><img src="images/logo.png" alt=""></a></div>
+
+        <div id="nav-menu">
+            <span class="btn_menu_line"></span>
+            <span class="btn_menu_line"></span>
+            <span class="btn_menu_line"></span>
+        </div>
+
+        <nav>
+
+            <ul data-breakpoint="1024" class="flexnav">
+                <li class="menu-item"><a class="animation-link active" href="index.html">Home</a></li>
+                <li class="menu-item"><a class="animation-link" href="blog.html">Blog</a></li>
+                <li class="menu-item"><a target="_blank" href="https://www.facebook.com/orcae/">Facebook</a></li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<div id="hero" class="hidden hero-big">
+    <div id="hero-styles" class="prl opc">
+
+        <!-- Full Screen Image -->
+        <div class="hero-image" style="background-image:url(images/1.jpg)">
+            <div class="overlay" style="background-color:rgba(0,0,0,0.85)">
+                <!-- Image Caption -->
+                <div class="clapat-caption light-content">
+                    <div class="caption-content center-center">
+
+                        <h1>ORCÆ</h1><br>
+                        <p>"<i>In an utter emptiness anything can take place.</i>" (John Cage)</p><br>
+                        <a class="clapat-button outline-button scroll" href="#main">En écoute</a>
+                        <a class="clapat-button outline-button scroll" href="#about">A propos</a>
+
+                    </div>
+                </div>
+                <!--/Image Caption -->
+            </div>
+        </div>
+        <!--/Full Screen Image -->
+
+    </div>
+</div>
+
+
+<!-- Main -->
+<div id="main">
+
+    <div class="container music" id="music">
+
+        <div class="has-animation style-filter filters-button-group light-content ">
+            <button class="clapat-button outline-button is-checked" data-filter="*">Tout</button>
+            <button class="clapat-button outline-button" data-filter=".publicperf">Perf Publique</button>
+            <button class="clapat-button outline-button" data-filter=".privateperf">Perf Privée</button>
+        </div>
+        <div class="has-animation style-filter filters-button-group light-content">
+            <button class="clapat-button outline-button" data-filter=".fragment">Fragment</button>
+            <button class="clapat-button outline-button" data-filter=".full">Intégral</button>
+        </div>
+
+        <div class="grid">
+            <div class="element-item publicperf metal " data-category="transition">
+                <div class="doc-cat has-animation">
+                    <div class="player">
+                        <img src="http://arcan.io/orcae/Arts_03.jpg" class="album-art"/>
+                        <div class="meta-container">
+                            <div class="song-title">Perf Publique - Le Ciel</div>
+                            <div class="song-artist">18 / 01 / 2020</div>
+
+                            <div class="time-container">
+                                <div class="current-time">
+                                    <span class="amplitude-current-minutes" data-amplitude-song-index="0"></span>:<span
+                                        class="amplitude-current-seconds" data-amplitude-song-index="0"></span>
+                                </div>
+
+                                <div class="duration">
+                                    <span class="amplitude-duration-minutes"
+                                          data-amplitude-song-index="0">3</span>:<span
+                                        class="amplitude-duration-seconds" data-amplitude-song-index="0">30</span>
+                                </div>
+                            </div>
+                            <progress class="amplitude-song-played-progress" data-amplitude-song-index="0"
+                                      id="song-played-progress-1"></progress>
+                            <div class="control-container">
+                                <div class="amplitude-prev">
+
+                                </div>
+                                <div class="amplitude-play-pause" data-amplitude-song-index="0">
+
+                                </div>
+                                <div class="amplitude-next">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element-item publicperf privateperf" data-category="metalloid">
+                <div class="doc-cat has-animation">
+                    <div class="player">
+                        <img src="http://arcan.io/orcae/Arts_01.jpg" class="album-art"/>
+                        <div class="meta-container">
+                            <div class="song-title">Perf Publique - Festival Modulations</div>
+                            <div class="song-artist">09 / 03 / 2019</div>
+
+                            <div class="time-container">
+                                <div class="current-time">
+                                    <span class="amplitude-current-minutes" data-amplitude-song-index="1"></span>:<span
+                                        class="amplitude-current-seconds" data-amplitude-song-index="1"></span>
+                                </div>
+
+                                <div class="duration">
+                                    <span class="amplitude-duration-minutes"
+                                          data-amplitude-song-index="1">3</span>:<span
+                                        class="amplitude-duration-seconds" data-amplitude-song-index="1">30</span>
+                                </div>
+                            </div>
+                            <progress class="amplitude-song-played-progress" data-amplitude-song-index="1"
+                                      id="song-played-progress-2"></progress>
+                            <div class="control-container">
+                                <div class="amplitude-prev">
+
+                                </div>
+                                <div class="amplitude-play-pause" data-amplitude-song-index="1">
+
+                                </div>
+                                <div class="amplitude-next">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <button type="button" class="collapsible" id="collapse_control"></button>
+                        <div class="collapse_content">
+                            <p>
+                                Lorem ipsum.Lorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsu
+                                Lorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsu
+                                Lorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsu
+                                Lorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsuLorem ipsu
+                                ..
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="element-item publicperf full" data-category="post-transition">
+                <div class="doc-cat has-animation">
+                    <div class="player">
+                        <img src="http://arcan.io/orcae/Arts_02.jpg" class="album-art"/>
+                        <div class="meta-container">
+                            <div class="song-title">Perf Publique - La Belle Électrique</div>
+                            <div class="song-artist">19 / 10 / 2018</div>
+
+                            <div class="time-container">
+                                <div class="current-time">
+                                    <span class="amplitude-current-minutes" data-amplitude-song-index="2"></span>:<span
+                                        class="amplitude-current-seconds" data-amplitude-song-index="2"></span>
+                                </div>
+
+                                <div class="duration">
+                                    <span class="amplitude-duration-minutes"
+                                          data-amplitude-song-index="2">3</span>:<span
+                                        class="amplitude-duration-seconds" data-amplitude-song-index="2">30</span>
+                                </div>
+                            </div>
+                            <progress class="amplitude-song-played-progress" data-amplitude-song-index="2"
+                                      id="song-played-progress-3"></progress>
+                            <div class="control-container">
+                                <div class="amplitude-prev">
+
+                                </div>
+                                <div class="amplitude-play-pause" data-amplitude-song-index="2">
+
+                                </div>
+                                <div class="amplitude-next">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element-item publicperf full" data-category="post-transition">
+                <div class="doc-cat has-animation" style="background-color: #000">
+
+                    <div id="white-player">
+                        <div class="white-player-top">
+                            <div>
+                                &nbsp;
+                            </div>
+                            <div class="center">
+                                <span class="now-playing">D.O.S.</span>
+                            </div>
+                            <div>
+                                <img src="images/show-playlist.svg" class="show-playlist"/>
+                            </div>
+                        </div>
+
+                        <div id="white-player-center">
+                            <img data-amplitude-song-info="cover_art_url" data-amplitude-playlist="D.O.S." class="main-album-art"/>
+
+                            <div class="song-meta-data">
+                                <span data-amplitude-song-info="name" data-amplitude-playlist="D.O.S." class="song-name"></span>
+                                <span data-amplitude-song-info="artist" data-amplitude-playlist="D.O.S." class="song-artist"></span>
+                            </div>
+
+                            <div class="time-progress">
+                                <div id="progress-container">
+                                    <input type="range" class="amplitude-song-slider" data-amplitude-playlist="D.O.S."/>
+                                    <progress id="song-played-progress" class="amplitude-song-played-progress" data-amplitude-playlist="D.O.S."></progress>
+                                    <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+                                </div>
+
+                                <div class="time-container">
+                <span class="current-time">
+                  <span class="amplitude-current-minutes" data-amplitude-playlist="D.O.S."></span>:<span class="amplitude-current-seconds" data-amplitude-playlist="D.O.S."></span>
+                </span>
+                                </div>
+                                <span class="duration">
+                <span class="amplitude-duration-minutes" data-amplitude-playlist="D.O.S."></span>:<span class="amplitude-duration-seconds" data-amplitude-playlist="D.O.S."></span>
+              </span>
+                            </div>
+                        </div>
+
+                        <div id="white-player-controls">
+                            <div class="amplitude-shuffle amplitude-shuffle-off" data-amplitude-playlist="D.O.S."  id="shuffle"></div>
+                            <div class="amplitude-prev" data-amplitude-playlist="D.O.S." id="previous"></div>
+                            <div class="amplitude-play-pause" data-amplitude-playlist="D.O.S." id="play-pause"></div>
+                            <div class="amplitude-next" data-amplitude-playlist="D.O.S." id="next"></div>
+                            <div class="amplitude-repeat" data-amplitude-playlist="D.O.S." id="repeat"></div>
+                        </div>
+
+                        <div id="white-player-playlist-container">
+                            <div class="white-player-playlist-top">
+                                <div>
+
+                                </div>
+                                <div>
+                                    <span class="now-playing">D.O.S.</span>
+                                </div>
+                                <div>
+                                    <img src="images/close.svg" class="close-playlist"/>
+                                </div>
+                            </div>
+
+                            <div class="white-player-up-next">
+                                à Suivre
+                            </div>
+
+                            <div class="white-player-playlist">
+                                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0" data-amplitude-playlist="D.O.S.">
+                                    <img src="http://arcan.io/orcae/D.O.S./art.jpg"/>
+
+                                    <div class="playlist-song-meta">
+                                        <span class="playlist-song-name">Captain Scarlet</span>
+                                        <span class="playlist-artist-album">D.O.S.</span>
+                                    </div>
+                                </div>
+                                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="1" data-amplitude-playlist="D.O.S.">
+                                    <img src="http://arcan.io/orcae/D.O.S./art.jpg"/>
+
+                                    <div class="playlist-song-meta">
+                                        <span class="playlist-song-name">Undercurrents</span>
+                                        <span class="playlist-artist-album">D.O.S.</span>
+                                    </div>
+                                </div>
+                                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="2" data-amplitude-playlist="D.O.S.">
+                                    <img src="http://arcan.io/orcae/D.O.S./art.jpg"/>
+
+                                    <div class="playlist-song-meta">
+                                        <span class="playlist-song-name">LaosPad</span>
+                                        <span class="playlist-artist-album">D.O.S.</span>
+                                    </div>
+                                </div>
+                                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="3" data-amplitude-playlist="D.O.S.">
+                                    <img src="http://arcan.io/orcae/D.O.S./art.jpg"/>
+
+                                    <div class="playlist-song-meta">
+                                        <span class="playlist-song-name">Vitrified Orchard</span>
+                                        <span class="playlist-artist-album">D.O.S.</span>
+                                    </div>
+                                </div>
+                                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="4" data-amplitude-playlist="D.O.S.">
+                                    <img src="http://arcan.io/orcae/D.O.S./art.jpg"/>
+
+                                    <div class="playlist-song-meta">
+                                        <span class="playlist-song-name">Aeromancy</span>
+                                        <span class="playlist-artist-album">D.O.S.</span>
+                                    </div>
+                                </div>
+                                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="5" data-amplitude-playlist="D.O.S.">
+                                    <img src="http://arcan.io/orcae/D.O.S./art.jpg"/>
+
+                                    <div class="playlist-song-meta">
+                                        <span class="playlist-song-name">Hang Son Doong</span>
+                                        <span class="playlist-artist-album">D.O.S.</span>
+                                    </div>
+                                </div>
+                                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="6" data-amplitude-playlist="D.O.S.">
+                                    <img src="http://arcan.io/orcae/D.O.S./art.jpg"/>
+
+                                    <div class="playlist-song-meta">
+                                        <span class="playlist-song-name">Don't Let The Bugs Bite</span>
+                                        <span class="playlist-artist-album">D.O.S.</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="white-player-playlist-controls">
+                                <img data-amplitude-song-info="cover_art_url" data-amplitude-playlist="D.O.S." class="playlist-album-art"/>
+
+                                <div class="playlist-controls">
+                                    <div class="playlist-meta-data">
+                                        <span data-amplitude-song-info="name" data-amplitude-playlist="D.O.S." class="song-name"></span>
+                                        <span data-amplitude-song-info="artist" data-amplitude-playlist="D.O.S." class="song-artist"></span>
+                                    </div>
+
+                                    <div class="playlist-control-wrapper">
+                                        <div class="amplitude-prev" id="playlist-previous" data-amplitude-playlst="D.O.S."></div>
+                                        <div class="amplitude-play-pause" data-amplitude-playlist="D.O.S." id="playlist-play-pause"></div>
+                                        <div class="amplitude-next" id="playlist-next" data-amplitude-playlist="D.O.S."></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container about" id="about">
+        <div style="text-align: center" class="has-animation">
+
+
+            <div class="h1">
+                à Propos
+            </div>
+            <p>
+                Orcæ est une formation expérimentale de 3 musiciens, jouant une forme de musique électronique
+                improvisée.
+            </p>
+
+            <p>
+                Puisant des influences chez la musique ambiante, l’electronica, le drone/doom, jusqu’au post-rock ou
+                encore la musique contemporaine et électroacoustique, les résultats sont, le plus souvent,
+                totalement imprévisibles.
+            </p>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<div>
+
+
+</div>
+
+
+<!--/Main -->
+
+
+<!-- Footer -->
+<footer>
+
+    <div id="footer-container">
+
+        <div class="outer">
+            <div class="inner">
+
+                <div class="scrolltotop"><span class='holder'></span></div>
+
+                <p class="copyright">2019 &copy; orcæ</p>
+
+                <ul class="socials">
+                    <li><a href="https://www.facebook.com/orcae" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="preload">
+        <img src="img/previous.svg"/>
+        <img src="img/play.svg"/>
+        <img src="img/pause.svg"/>
+        <img src="img/next.svg"/>
+    </div>
+
+
+    <!-- Documentation Category -->
+    <!--<div class="doc-cat has-animation">
+    <a class="animation-link" href="blog.html">
+
+        <div class="dc-text">
+
+            <h4>Creating Content</h4>
+
+            <p>Creating content is nothing special if you have even basic experience with WordPress.</p>
+
+       </div>
+
+       <div class="dc-icon">
+
+           <div class="outer">
+               <div class="inner">
+                   <div class="dc-icon-img">
+                       <img src="images/dc4.png" alt="dc">
+                   </div>
+               </div>
+           </div>
+
+       </div>
+    </a>
+    </div>-->
+    <!--/Documentation Category -->
+
+
+</footer>
+<!--/Footer -->
+
+
+<script src="js/isotope.pkgd.js"></script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/scripts.js"></script>
+
+<script src="js/amplitude.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script src="js/isotope-docs.min.js"></script>
+
+<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
