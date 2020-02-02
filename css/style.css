@@ -57,7 +57,7 @@ header, header.hidden {
 }
 
 #hero, .scrolltotop, header {
-    -webkit-perspective: 1000
+    -webkit-perspective: 1000;
 }
 
 body, html {
@@ -2008,8 +2008,8 @@ button-group{
 }
 
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
+/* Style the button that is used to open and close the collapsible_songs content */
+.collapsible_songs {
     /*background-color: white;*/
     color: #444;
     cursor: pointer;
@@ -2024,11 +2024,11 @@ button-group{
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active .collapsible_songs:hover {
     background-color: white;
 }
 
-/* Style the collapsible content. Note: hidden by default */
+/* Style the collapsible_songs content. Note: hidden by default */
 .collapse_content {
     padding: 0 18px;
     background-color: white;
@@ -2042,7 +2042,7 @@ button-group{
 }
 
 
-.collapsible:after {
+.collapsible_songs:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     margin-bottom: -5px;
     font-size: 13px;
@@ -2051,6 +2051,6 @@ button-group{
     margin-left: 5px;
 }
 
-.active:after {
+.element-item .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }

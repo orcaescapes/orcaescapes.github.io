@@ -38,7 +38,7 @@ $('.button-group').each( function( i, buttonGroup ) {
 });
 
 
-    var coll = document.getElementsByClassName("collapsible");
+    var coll = document.getElementsByClassName("collapsible_songs");
     var i;
 
     for (i = 0; i < coll.length; i++) {
