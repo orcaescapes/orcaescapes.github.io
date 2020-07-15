@@ -288,7 +288,7 @@ div#white-player-controls {
     height: 24px;
     width: 28px;
     cursor: pointer;
-    background: url("../img/previous.svg");
+    background: url("../images/player/previous.svg");
     vertical-align: middle;
     margin-right: 16px; }
   div#white-player-controls div#play-pause {
@@ -299,15 +299,15 @@ div#white-player-controls {
     vertical-align: middle;
     margin-right: 16px; }
     div#white-player-controls div#play-pause.amplitude-paused {
-      background: url("../img/play.svg"); }
+      background: url("../images/player/play.svg"); }
     div#white-player-controls div#play-pause.amplitude-playing {
-      background: url("../img/pause.svg"); }
+      background: url("../images/player/pause.svg"); }
   div#white-player-controls div#next {
     display: inline-block;
     height: 24px;
     width: 28px;
     cursor: pointer;
-    background: url("../img/next.svg");
+    background: url("../images/player/next.svg");
     vertical-align: middle;
     margin-right: 24px; }
   div#white-player-controls div#repeat {
@@ -447,7 +447,7 @@ div.white-player-playlist-controls {
         height: 24px;
         width: 24px;
         cursor: pointer;
-        background: url("../img/previous.svg");
+        background: url("../images/player/previous.svg");
         vertical-align: middle;
         background-size: 24px 24px; }
       div.white-player-playlist-controls div.playlist-controls div.playlist-control-wrapper div#playlist-play-pause {
@@ -458,17 +458,17 @@ div.white-player-playlist-controls {
         vertical-align: middle;
         margin: 0px 6px;}
         div.white-player-playlist-controls div.playlist-controls div.playlist-control-wrapper div#playlist-play-pause.amplitude-paused {
-          background: url("../img/play.svg");
+          background: url("../images/player/play.svg");
           background-size: 24px 24px; }
         div.white-player-playlist-controls div.playlist-controls div.playlist-control-wrapper div#playlist-play-pause.amplitude-playing {
-          background: url("../img/pause.svg");
+          background: url("../images/player/pause.svg");
           background-size: 24px 24px; }
       div.white-player-playlist-controls div.playlist-controls div.playlist-control-wrapper div#playlist-next {
         display: inline-block;
         height: 24px;
         width: 24px;
         cursor: pointer;
-        background: url("../img/next.svg");
+        background: url("../images/player/next.svg");
         vertical-align: middle;
         background-size: 24px 24px; }
 

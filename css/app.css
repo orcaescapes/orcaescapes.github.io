@@ -5,19 +5,18 @@
   2. Components
 */
 div.player {
-  border: 0px solid #eaeaea;
   margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  max-width: 750px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 550px;
   }
   div.player:after {
     content: "";
     display: table;
     clear: both; }
   div.player img.album-art {
-    width: 245px;
-    height: 245px;
+    width: 145px;
+    height: 145px;
     float: left; }
 
 /*
@@ -26,7 +25,9 @@ div.player {
 @media screen and (max-width: 39.9375em) {
   div.player img.album-art {
     width: 100%;
-    height: auto; } }
+    height: auto;
+  }
+}
 /*
   Medium only
 */
@@ -35,26 +36,29 @@ div.player {
 */
 div.meta-container {
   float: left;
-  width: calc(100% - 245px);
-  padding: 10px; }
+  width: calc(100% - 145px);
+  padding: 10px;
+  font-style: normal;
+
+}
   div.meta-container div.song-title {
     text-align: center;
-    color: #263238;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 16px;
     font-weight: 600;
-    font-family: "Open Sans", sans-serif; }
+    //font-family: "Open Sans", sans-serif; }
   div.meta-container div.song-artist {
     text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    color: #263238;
-    margin-top: 10px;
-    margin-bottom: 15px;}
+    //font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: #bfbfbf;
+    margin-top: 0px;
+    margin-bottom: 0px;}
   div.meta-container div.time-container {
-    font-family: Helvetica;
-    font-size: 14px;
-    color: #000;
-    margin-bottom: 10px; }
+    //font-family: Helvetica;
+    font-size: 10px;
+    color: #bfbfbf;
+    margin-bottom: 0px; }
     div.meta-container div.time-container:after {
       content: "";
       display: table;
@@ -69,7 +73,12 @@ div.meta-container {
 */
 @media screen and (max-width: 39.9375em) {
   div.meta-container {
-    width: 100%; } }
+    margin-top: -200px;
+    background: rgba(120, 120, 120, 0.8); /* Green background with 30% opacity */
+    width: 100%;
+    padding: 20px;
+  }
+}
 /*
   Medium only
 */
@@ -78,29 +87,35 @@ div.meta-container {
 */
 div.control-container {
   text-align: center;
-  margin-top: 40px; }
+  margin-top: 20px;
+}
   div.control-container div.amplitude-prev {
     width: 28px;
     height: 24px;
     cursor: pointer;
-    background: url("../img/previous.svg");
+    background: url("../images/player/previous.svg");
     display: inline-block;
     vertical-align: middle; }
   div.control-container div.amplitude-play-pause {
-    width: 40px;
-    height: 44px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     display: inline-block;
-    vertical-align: middle; }
+    vertical-align: middle;
+  }
     div.control-container div.amplitude-play-pause.amplitude-paused {
-      background: url("../img/play.svg"); }
+      background: url("../images/player/play.svg");
+      background-size: 30px 30px;
+    }
     div.control-container div.amplitude-play-pause.amplitude-playing {
-      background: url("../img/pause.svg"); }
+      background: url("../images/player/pause.svg");
+      background-size: 30px 30px
+    }
   div.control-container div.amplitude-next {
     width: 28px;
     height: 24px;
     cursor: pointer;
-    background: url("../img/next.svg");
+    background: url("../images/player/next.svg");
     display: inline-block;
     vertical-align: middle; }
 
@@ -132,7 +147,7 @@ progress.amplitude-song-played-progress:not([value]) {
   background-color: #313252; }
 
 progress.amplitude-song-played-progress {
-  background-color: #d7dee3;
+  background-color: #777777;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -145,15 +160,15 @@ progress.amplitude-song-played-progress {
   border: none; }
 
 progress[value]::-webkit-progress-bar {
-  background-color: #d7dee3;
+  background-color: #777777;
   border-radius: 3px; }
 
 progress[value]::-moz-progress-bar {
-  background-color: #FA6733;
+  background-color: #0d0d0d;
   border-radius: 3px; }
 
 progress[value]::-webkit-progress-value {
-  background-color: #FA6733;
+  background-color: #0d0d0d;
   border-radius: 3px; }
 
 /*
