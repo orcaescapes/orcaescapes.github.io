@@ -2074,5 +2074,14 @@ button-group{
 
 .element-item .active:after {
     content: '\f068';
-    font-family: FontAwesome;}
+    font-family: FontAwesome;
+}
 
+.download-song {
+    position: absolute;
+    right: 5px;
+}
+
+.fa-download {
+    color: #ffffff;
+}

@@ -163,6 +163,13 @@ $(function () {
         $items.not(filterSelector).addClass('is-filtered-out');
     });
 
+    $('.download-song-button').click(function() {
+        alert("Truc sur la licence d'utilisation. Allez-y saut si vous êtes JJAbrams et que vous voulez torcher la bande son de vos bockblusters à pas cher");
+    });
+
+
+
+
 // change is-checked class on buttons
     $('.button-group').each(function (i, buttonGroup) {
         var $buttonGroup = $(buttonGroup);
