@@ -214,7 +214,11 @@ $(function () {
         $( ".about_clearerContent" ).slideToggle( "slow", function() {
         });
 
-        $( "#about_clearerTip" ).text( "Oulala, je n'en demandais pas tant..." );
+        if($( "#about_clearerTip" ).text() == "Vous vouliez vraiment savoir ce qu'est Orcæ ? clickez"){
+            $( "#about_clearerTip" ).text( "Merci, mais là c'est beaucoup trop long..." );
+        } else {
+            $( "#about_clearerTip" ).text( "Vous vouliez vraiment savoir ce qu'est Orcæ ? clickez" );
+        }
 
     });
 
