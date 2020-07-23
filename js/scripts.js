@@ -217,7 +217,12 @@ $(function () {
         if($( "#about_clearerTip" ).text() == "Vous vouliez vraiment savoir ce qu'est Orcæ ? clickez"){
             $( "#about_clearerTip" ).text( "Merci, mais là c'est beaucoup trop long..." );
         } else {
-            $( "#about_clearerTip" ).text( "Vous vouliez vraiment savoir ce qu'est Orcæ ? clickez" );
+            if($( "#about_clearerTip" ).text() == "Vous vouliez revoir la version longue ?") {
+                $("#about_clearerTip").text("Cette fois ci c'est bon");
+            } else {
+                $( "#about_clearerTip" ).text( "Vous vouliez revoir la version longue ?" );
+            }
+
         }
 
     });

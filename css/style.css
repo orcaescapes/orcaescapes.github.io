@@ -2114,8 +2114,12 @@ button-group{
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    top: -10px;
-    left: 110%;
+    bottom: 120%;
+    left: 50%;
+
+    margin-left: -90px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+
     font-size: 12px;
 
 }
@@ -2127,12 +2131,12 @@ button-group{
 .tooltip .tooltiptext::after {
     content: " ";
     position: absolute;
-    top: 50%;
-    right: 100%; /* To the left of the tooltip */
-    margin-top: -5px;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent dimgray transparent transparent;
+    border-color: dimgray transparent transparent transparent;
 }
 
 .about_clearerContent {
