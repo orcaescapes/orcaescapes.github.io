@@ -201,6 +201,23 @@ $(function () {
 });
 
 
+// about clearer
+
+(function($) {
+
+    $(".about_clearerContent").hide();
+
+
+    $( "#about_clearerToggle" ).click(
+
+    function() {
+        $( ".about_clearerContent" ).slideToggle( "slow", function() {
+        });
+
+
+    });
+
+})(jQuery);
 
 
 
