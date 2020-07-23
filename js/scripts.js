@@ -214,6 +214,7 @@ $(function () {
         $( ".about_clearerContent" ).slideToggle( "slow", function() {
         });
 
+        $( "#about_clearerTip" ).text( "Oulala, je n'en demandais pas tant..." );
 
     });
 
