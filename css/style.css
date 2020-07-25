@@ -2001,7 +2001,9 @@ button-group{
 }
 
 
-.element-item.is-filtered-out { opacity: 0.2 }
+.element-item.is-filtered-out {
+    opacity: 0.2;
+}
 
 
 
