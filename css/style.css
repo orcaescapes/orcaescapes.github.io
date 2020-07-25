@@ -2079,7 +2079,13 @@ button-group{
 
 .download-song {
     position: absolute;
-    right: 5px;
+    left: 153px;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .download-song {
+        display: none;
+    }
 }
 
 .fa-download {
