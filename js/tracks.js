@@ -5,7 +5,7 @@ var tracks = {"songs": [
             "date": "28 / 01 / 2020",
             "url": "http://arcan.io/orcae/Orcaescapes_200128_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2020 publicperf guest",
+            "tags": "2020 privateperf guest",
             "insight": ""
         },
 
@@ -17,7 +17,7 @@ var tracks = {"songs": [
             "date": "07 / 01 / 2020",
             "url": "http://arcan.io/orcae/Orcaescapes_200107_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2020 publicperf",
+            "tags": "2020 privateperf",
             "insight": ""
         },
 
@@ -29,7 +29,7 @@ var tracks = {"songs": [
             "date": "17 / 12 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_191217_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -41,7 +41,7 @@ var tracks = {"songs": [
             "date": "10 / 12 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_191210_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -53,7 +53,7 @@ var tracks = {"songs": [
             "date": "19 / 11 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_191119_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -65,7 +65,7 @@ var tracks = {"songs": [
             "date": "29 / 10 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_191029_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf guest",
+            "tags": "2019 privateperf guest",
             "insight": ""
         },
 
@@ -77,7 +77,7 @@ var tracks = {"songs": [
             "date": "22 / 10 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_191022_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -89,7 +89,7 @@ var tracks = {"songs": [
             "date": "08 / 10 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_191008_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -101,7 +101,7 @@ var tracks = {"songs": [
             "date": "24 / 09 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_190924_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -113,7 +113,7 @@ var tracks = {"songs": [
             "date": "17 / 09 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_190917_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -125,7 +125,7 @@ var tracks = {"songs": [
             "date": "10 / 09 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_190910_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -137,7 +137,7 @@ var tracks = {"songs": [
             "date": "03 / 09 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_190903_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -149,7 +149,7 @@ var tracks = {"songs": [
             "date": "27 / 08 / 2019",
             "url": "http://arcan.io/orcae/Orcaescapes_190827_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2019 publicperf",
+            "tags": "2019 privateperf",
             "insight": ""
         },
 
@@ -161,7 +161,7 @@ var tracks = {"songs": [
             "date": "18 / 12 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_181218_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -173,7 +173,7 @@ var tracks = {"songs": [
             "date": "02 / 10 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_181002_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -185,7 +185,7 @@ var tracks = {"songs": [
             "date": "25 / 09 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180925_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -197,7 +197,7 @@ var tracks = {"songs": [
             "date": "03 / 09 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180903_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -209,7 +209,7 @@ var tracks = {"songs": [
             "date": "28 / 08 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180828_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -221,7 +221,7 @@ var tracks = {"songs": [
             "date": "03 / 07 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180703_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -233,7 +233,7 @@ var tracks = {"songs": [
             "date": "26 / 06 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180626_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -245,7 +245,7 @@ var tracks = {"songs": [
             "date": "12 / 06 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180612_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf guest",
+            "tags": "2018 privateperf guest",
             "insight": ""
         },
 
@@ -257,7 +257,7 @@ var tracks = {"songs": [
             "date": "05 / 06 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180605_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -269,7 +269,7 @@ var tracks = {"songs": [
             "date": "17 / 04 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180417_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -281,7 +281,7 @@ var tracks = {"songs": [
             "date": "27 / 03 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180327_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -293,7 +293,7 @@ var tracks = {"songs": [
             "date": "06 / 03 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180306_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -305,7 +305,7 @@ var tracks = {"songs": [
             "date": "27 / 02 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180227_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf",
+            "tags": "2018 privateperf",
             "insight": ""
         },
 
@@ -317,7 +317,7 @@ var tracks = {"songs": [
             "date": "16 / 01 / 2018",
             "url": "http://arcan.io/orcae/Orcaescapes_180116_MASTER.mp3",
             "cover_art_url": "http://arcan.io/orcae/Arts_02.jpg",
-            "tags": "2018 publicperf guest",
+            "tags": "2018 privateperf guest",
             "insight": ""
         },
 
