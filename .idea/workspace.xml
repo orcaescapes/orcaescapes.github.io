@@ -30,8 +30,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="184" column="72" selection-start-line="184" selection-start-column="72" selection-end-line="184" selection-end-column="72" />
+                <state relative-caret-position="357">
+                  <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -53,7 +53,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1290">
-                  <caret line="86" column="42" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="42" />
+                  <caret line="88" column="42" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="42" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -99,7 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ima</find>
       <find>image</find>
       <find>musicien</find>
       <find>functions</find>
@@ -129,6 +128,7 @@
       <find>#hero</find>
       <find>dimgrey</find>
       <find>chevali</find>
+      <find>blog</find>
     </findStrings>
     <replaceStrings>
       <replace>collapsible_songs</replace>
@@ -247,12 +247,13 @@
       <workItem from="1595708277700" duration="1012000" />
       <workItem from="1596312289603" duration="2777000" />
       <workItem from="1597346307019" duration="6287000" />
-      <workItem from="1597434289108" duration="27000" />
+      <workItem from="1597434289108" duration="53000" />
+      <workItem from="1598873168186" duration="95000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61152000" />
+    <option name="totallyTimeSpent" value="61273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="361" y="23" width="1319" height="983" extended-state="0" />
@@ -403,8 +404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="184" column="72" selection-start-line="184" selection-start-column="72" selection-end-line="184" selection-end-column="72" />
+        <state relative-caret-position="357">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
